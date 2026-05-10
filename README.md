@@ -24,9 +24,9 @@ Time Complexity: $O(V + E)$.
 
 | Graph Size | BFS Execution Time (ns) | DFS Execution Time (ns) |
 |------------|-------------------------|-------------------------|
-| 10 nodes   | [not yet]       | [not yet]      |
-| 30 nodes   | [not yet]       | [not yet]       |
-| 100 nodes  | [not yet]       | [not yet]      |
+| 10 nodes   |    562810 ns    |    373915 ns    |
+| 30 nodes   |    99065 ns     |    57725 ns     |
+| 100 nodes  |    214701 ns    |    365099 ns    |
 
 ### Analysis Questions
 How does graph size affect performance? As the number of vertices and edges increases, execution time grows linearly, verifying the Big-O expectation.
