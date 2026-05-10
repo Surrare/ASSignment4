@@ -35,10 +35,7 @@ Do results match expected complexity? Yes, the execution times scale at roughly 
 When is BFS preferred? When looking for the shortest path or when the target node is known to be close to the root.
 What are the limitations of DFS? It is not optimal for finding the shortest path. On massive, extremely deep graphs, recursive DFS can cause a `StackOverflowError`. 
 
-## E. Screenshots
-not yet
-
-## F. Reflection
+## E. Reflection
 Through this assignment, I learned how to represent complex network relationships using code without relying on pre-built Graph libraries. Translating the theoretical $O(V+E)$ complexity into a tangible Adjacency List helped solidify why this structure is generally preferred over an Adjacency Matrix for memory efficiency. 
 
 One challenge was properly ensuring that undirected edges were represented correctly by adding relationships in both directions. Understanding the difference between a Queue (for BFS) and the recursive Call Stack (for DFS) was critical to getting the traversal order right.
